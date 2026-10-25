@@ -9,7 +9,7 @@ npm install
 npm test
 ```
 
-`npm test` runs the same checks as the autograder. Run a single requirement with `npm test -- --test-name-pattern="^R1:"`. Try your modules with `node app.js` and the server with `npm start` (http://localhost:4000).
+`npm test` runs the same checks as the autograder. Run a single requirement with `node --test --test-name-pattern="^R1:" "test/**/*.test.js"`. Try your modules with `node app.js` and the server with `npm start` (http://localhost:4000).
 
 ## Requirements
 
